@@ -90,6 +90,8 @@ static {
 
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/1616478-5d85bdb76a983479.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+在app\main下新建jniLibs目录，然后把刚才生成的.so文件夹拷贝到这里，删除jni目录，Rebuild Project 运行依然正常。
+
 
 ##常见问题
 1. 如果是JniUtils.c，则代码不一样；
